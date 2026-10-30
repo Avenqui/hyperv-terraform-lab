@@ -15,7 +15,7 @@ resource "hyperv_vm" "srv_test01" {
     controller_type     = "SCSI"
     controller_number   = 0
     controller_location = 0
-    path                = hyperv_image_file.srv_test01_disk.destination_path
+    path                = hyperv_vhd.srv_test01_disk.path
   }]
   network_adapter = [{
     name        = "Network Adapter"
@@ -23,9 +23,7 @@ resource "hyperv_vm" "srv_test01" {
   }]
 }
 
-resource "hyperv_image_file" "srv_test01_disk" {
-  source_path      = "C:/Hyper-V/Templates/tempWin2022.vhdx"
-  destination_path = "C:/Hyper-V/VMs/SRV-TEST01/SRV-TEST01.vhdx"
-
-  keep_on_destroy = false
+resource "hyperv_vhd" "srv_test01_disk" {
+  path        = "C:/Hyper-V/VMs/SRV-TEST01/SRV-TEST01.vhdx"
+  source_path = "C:/Hyper-V/Templates/tempWin2022.vhdx"
 }
