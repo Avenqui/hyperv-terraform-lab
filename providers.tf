@@ -1,7 +1,7 @@
 terraform {
-    required_providers {
-        hyperv = {
-            source = "windsorcli/hyperv"
-        }
+  required_providers {
+    hyperv = {
+      source = "windsorcli/hyperv"
     }
+  }
 }
