@@ -5,4 +5,5 @@
 *.tfplan
 *.vhd
 *.vhdx
+unattended/*.xml
 crash.log
