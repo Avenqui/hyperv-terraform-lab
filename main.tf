@@ -1,6 +1,10 @@
 resource "hyperv_vm" "servers" {
   for_each = var.servers
 
+  depends_on = [
+    terraform_data.inject_unattend
+  ]
+
   name       = each.key
   generation = 2
 
@@ -35,4 +39,25 @@ resource "hyperv_vhd" "servers" {
   path        = "C:/Hyper-V/VMs/${each.key}/${each.key}.vhdx"
   vhd_type    = "differencing"
   parent_path = "C:/Hyper-V/Templates/tempWin2022.vhdx"
+}
+
+resource "terraform_data" "inject_unattend" {
+  for_each = var.servers
+
+  input = each.key
+
+  lifecycle {
+    replace_triggered_by = [
+      hyperv_vhd.servers[each.key]
+    ]
+  }
+
+  provisioner "local-exec" {
+    interpreter = ["PowerShell", "-NoProfile", "-Command"]
+
+    command = <<-EOT
+    & "${abspath(path.module)}/scripts/Add-unattend.ps1" -VhdPath "${hyperv_vhd.servers[each.key].path}" -UnattendPath "${abspath(path.module)}/Unattended/Unattended.xml"
+    if (-not $?) { exit 1 }
+  EOT
+  }
 }

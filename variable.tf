@@ -21,5 +21,10 @@ variable "servers" {
       cpu = 2
       ram = 4
     }
+
+    "SRV-TEST04" = {
+      cpu = 2
+      ram = 4
+    }
   }
 }
