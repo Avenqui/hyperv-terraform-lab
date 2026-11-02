@@ -33,5 +33,6 @@ resource "hyperv_vhd" "servers" {
   for_each = var.servers
 
   path        = "C:/Hyper-V/VMs/${each.key}/${each.key}.vhdx"
-  source_path = "C:/Hyper-V/Templates/tempWin2022.vhdx"
+  vhd_type    = "differencing"
+  parent_path = "C:/Hyper-V/Templates/tempWin2022.vhdx"
 }
