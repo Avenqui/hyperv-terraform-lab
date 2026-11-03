@@ -6,6 +6,23 @@ param(
     [string]$UnattendPath
 )
 
+$LogDirectory = Join-Path $PSScriptRoot "..\logs"
+$LogFile = Join-Path $LogDirectory "deployment.log"
+
+if (-not (Test-Path $LogDirectory)) {
+    New-Item -Itemtype Directory -Path $LogDirectory -Force | Out-Null
+}
+
+Function Write-Log {
+    param(
+        [string]$Message
+    )
+$Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+$LogMessage = "$Timestamp - $Message"
+Write-Host $LogMessage
+Add-Content -Path $LogFile -Value $LogMessage
+}
+
 $ErrorActionPreference = "Stop"
 
 if (-not (Test-Path $VhdPath)) {
@@ -19,7 +36,7 @@ if (-not (Test-Path $UnattendPath)) {
 $mounted = $false
 
 try {
-    Write-Host "Mounting $VhdPath"
+    Write-Log "Mounting $VhdPath"
 
     $disk = Mount-VHD -Path $VhdPath -Passthru | Get-Disk
     $mounted = $true
@@ -41,7 +58,7 @@ try {
 
         $driveLetter = $partition.DriveLetter
 
-        Write-Host "Existing drive letter: ${driveLetter}:"
+        Write-Log "Existing drive letter: ${driveLetter}:"
 
     }
     else {
@@ -91,12 +108,12 @@ try {
         -Destination $destination `
         -Force
 
-    Write-Host "Unattend.xml copied to $destination"
+    Write-Log "Unattend.xml copied to $destination"
 }
 finally {
 
     if ($mounted) {
         Dismount-VHD -Path $VhdPath
-        Write-Host "Drive unmounted."
+        Write-Log "Drive unmounted."
     }
 }
