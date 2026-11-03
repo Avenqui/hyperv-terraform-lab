@@ -1,0 +1,106 @@
+[2026-52-03 12:52:05] [INFO] Start VM management. Action status
+[2026-52-03 12:52:05] [INFO] SRV-TEST01 - State Off
+[2026-52-03 12:52:05] [INFO] SRV-TEST02 - State Off
+[2026-52-03 12:52:05] [INFO] SRV-TEST03 - State Off
+[2026-52-03 12:52:05] [INFO] SRV-TEST04 - State Off
+[2026-52-03 12:52:05] [INFO] VM management ended
+[2026-53-03 12:53:16] [INFO] Start VM management. Action stop
+[2026-53-03 12:53:16] [INFO] SRV-TEST01 is already off
+[2026-53-03 12:53:16] [INFO] SRV-TEST02 is already off
+[2026-53-03 12:53:16] [INFO] SRV-TEST03 is already off
+[2026-53-03 12:53:16] [INFO] SRV-TEST04 is already off
+[2026-53-03 12:53:16] [INFO] VM management ended
+[2026-54-03 12:54:51] [INFO] Start VM management. Action status
+[2026-54-03 12:54:51] [INFO] SRV-TEST01 - State Off
+[2026-54-03 12:54:51] [INFO] SRV-TEST02 - State Off
+[2026-54-03 12:54:51] [INFO] SRV-TEST03 - State Off
+[2026-54-03 12:54:51] [INFO] SRV-TEST04 - State Off
+[2026-54-03 12:54:51] [INFO] VM management ended
+[2026-55-03 12:55:06] [INFO] Start VM management. Action status
+[2026-55-03 12:55:06] [INFO] SRV-TEST01 - State Off
+[2026-55-03 12:55:07] [INFO] SRV-TEST02 - State Off
+[2026-55-03 12:55:07] [INFO] SRV-TEST03 - State Off
+[2026-55-03 12:55:07] [INFO] SRV-TEST04 - State Off
+[2026-55-03 12:55:07] [INFO] VM management ended
+[2026-55-03 12:55:58] [INFO] Start VM management. Action Start
+[2026-55-03 12:55:58] [INFO] Starting SRV-TEST01
+[2026-55-03 12:55:59] [INFO] SRV-TEST01 is not wunning
+[2026-55-03 12:55:59] [INFO] Starting SRV-TEST02
+[2026-55-03 12:55:59] [INFO] SRV-TEST02 is not wunning
+[2026-55-03 12:55:59] [INFO] Starting SRV-TEST03
+[2026-56-03 12:56:04] [INFO] SRV-TEST03 is not wunning
+[2026-56-03 12:56:04] [INFO] Starting SRV-TEST04
+[2026-56-03 12:56:11] [INFO] SRV-TEST04 is not wunning
+[2026-56-03 12:56:11] [INFO] VM management ended
+[2026-57-03 12:57:33] [INFO] Start VM management. Action status
+[2026-57-03 12:57:33] [INFO] SRV-TEST01 - State Running
+[2026-57-03 12:57:33] [INFO] SRV-TEST02 - State Running
+[2026-57-03 12:57:33] [INFO] SRV-TEST03 - State Running
+[2026-57-03 12:57:33] [INFO] SRV-TEST04 - State Running
+[2026-57-03 12:57:33] [INFO] VM management ended
+[2026-58-03 12:58:09] [INFO] Start VM management. Action stop
+[2026-58-03 12:58:09] [INFO] Shutting down SRV-TEST01
+[2026-58-03 12:58:09] [ERROR, JIPPI!] SRV-TEST01: Missing an argument for parameter 'ErrorAction'. Specify a parameter of type 'System.Management.Automation.ActionPreference' and try again.
+[2026-58-03 12:58:09] [INFO] Shutting down SRV-TEST02
+[2026-58-03 12:58:09] [ERROR, JIPPI!] SRV-TEST02: Missing an argument for parameter 'ErrorAction'. Specify a parameter of type 'System.Management.Automation.ActionPreference' and try again.
+[2026-58-03 12:58:09] [INFO] Shutting down SRV-TEST03
+[2026-58-03 12:58:09] [ERROR, JIPPI!] SRV-TEST03: Missing an argument for parameter 'ErrorAction'. Specify a parameter of type 'System.Management.Automation.ActionPreference' and try again.
+[2026-58-03 12:58:09] [INFO] Shutting down SRV-TEST04
+[2026-58-03 12:58:09] [ERROR, JIPPI!] SRV-TEST04: Missing an argument for parameter 'ErrorAction'. Specify a parameter of type 'System.Management.Automation.ActionPreference' and try again.
+[2026-58-03 12:58:09] [INFO] VM management ended
+[2026-01-03 13:01:31] [INFO] Start VM management. Action start
+[2026-01-03 13:01:31] [INFO] SRV-TEST01 already running
+[2026-01-03 13:01:31] [INFO] SRV-TEST02 already running
+[2026-01-03 13:01:31] [INFO] SRV-TEST03 already running
+[2026-01-03 13:01:31] [INFO] SRV-TEST04 already running
+[2026-01-03 13:01:31] [INFO] VM management ended
+[2026-01-03 13:01:41] [INFO] Start VM management. Action status
+[2026-01-03 13:01:41] [INFO] SRV-TEST01 - State Running
+[2026-01-03 13:01:41] [INFO] SRV-TEST02 - State Running
+[2026-01-03 13:01:41] [INFO] SRV-TEST03 - State Running
+[2026-01-03 13:01:41] [INFO] SRV-TEST04 - State Running
+[2026-01-03 13:01:41] [INFO] VM management ended
+[2026-01-03 13:01:46] [INFO] Start VM management. Action stop
+[2026-01-03 13:01:46] [INFO] Shutting down SRV-TEST01
+[2026-02-03 13:02:33] [INFO] SRV-TEST01 is now shutdown
+[2026-02-03 13:02:33] [INFO] Shutting down SRV-TEST02
+[2026-02-03 13:02:51] [INFO] SRV-TEST02 is now shutdown
+[2026-02-03 13:02:51] [INFO] Shutting down SRV-TEST03
+[2026-03-03 13:03:05] [INFO] SRV-TEST03 is now shutdown
+[2026-03-03 13:03:05] [INFO] Shutting down SRV-TEST04
+[2026-03-03 13:03:08] [INFO] SRV-TEST04 is now shutdown
+[2026-03-03 13:03:08] [INFO] VM management ended
+[2026-05-03 13:05:06] [INFO] ------------------Start VM management. Action status ------------------
+[2026-05-03 13:05:06] [INFO] SRV-TEST01 - State Off
+[2026-05-03 13:05:06] [INFO] SRV-TEST02 - State Off
+[2026-05-03 13:05:06] [INFO] SRV-TEST03 - State Off
+[2026-05-03 13:05:06] [INFO] SRV-TEST04 - State Off
+[2026-05-03 13:05:06] [INFO] ------------------VM management ended------------------
+[2026-05-03 13:05:27] [INFO] ------------------Start VM management. Action start ------------------
+[2026-05-03 13:05:27] [INFO] Starting SRV-TEST01
+[2026-05-03 13:05:28] [INFO] SRV-TEST01 is now up and running
+[2026-05-03 13:05:28] [INFO] Starting SRV-TEST02
+[2026-05-03 13:05:28] [INFO] SRV-TEST02 is now up and running
+[2026-05-03 13:05:28] [INFO] Starting SRV-TEST03
+[2026-05-03 13:05:30] [INFO] SRV-TEST03 is now up and running
+[2026-05-03 13:05:30] [INFO] Starting SRV-TEST04
+[2026-05-03 13:05:34] [INFO] SRV-TEST04 is now up and running
+[2026-05-03 13:05:34] [INFO] ------------------VM management ended------------------
+[2026-07-03 13:07:26] [Warning] No WMs found.
+[2026-07-03 13:07:36] [Warning] No WMs found.
+[2026-09-03 13:09:28] [INFO] ------------------Start VM management. Action status ------------------
+[2026-09-03 13:09:28] [INFO] SRV-TEST01 - State Off
+[2026-09-03 13:09:28] [INFO] SRV-TEST02 - State Off
+[2026-09-03 13:09:28] [INFO] SRV-TEST03 - State Off
+[2026-09-03 13:09:28] [INFO] SRV-TEST04 - State Off
+[2026-09-03 13:09:28] [INFO] ------------------VM management ended------------------
+[2026-09-03 13:09:35] [INFO] ------------------Start VM management. Action start ------------------
+[2026-09-03 13:09:35] [INFO] Starting SRV-TEST01
+[2026-09-03 13:09:35] [INFO] SRV-TEST01 is now up and running
+[2026-09-03 13:09:35] [INFO] Starting SRV-TEST02
+[2026-09-03 13:09:36] [INFO] SRV-TEST02 is now up and running
+[2026-09-03 13:09:36] [INFO] Starting SRV-TEST03
+[2026-09-03 13:09:36] [INFO] SRV-TEST03 is now up and running
+[2026-09-03 13:09:36] [INFO] Starting SRV-TEST04
+[2026-09-03 13:09:37] [INFO] SRV-TEST04 is now up and running
+[2026-09-03 13:09:37] [INFO] ------------------VM management ended------------------

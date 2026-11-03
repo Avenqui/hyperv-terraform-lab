@@ -1,0 +1,106 @@
+2026-11-03T12:15:45.604+0100 [INFO]  Terraform version: 1.16.6
+2026-11-03T12:15:45.604+0100 [INFO]  Go runtime version: go1.26.8
+2026-11-03T12:15:45.604+0100 [INFO]  CLI args: []string{"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links\\terraform.exe", "plan"}
+2026-11-03T12:15:45.612+0100 [INFO]  CLI command args: []string{"plan"}
+2026-11-03T12:15:45.691+0100 [INFO]  backend/local: starting Plan operation
+2026-11-03T12:15:45.700+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T12:15:45.731+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T12:15:45.730+0100"
+2026-11-03T12:15:45.770+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=12456
+2026-11-03T12:15:45.771+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T12:15:45.794+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T12:15:45.793+0100"
+2026-11-03T12:15:45.830+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=3396
+2026-11-03T12:15:45.830+0100 [INFO]  backend/local: plan calling Plan
+2026-11-03T12:15:45.831+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T12:15:45.850+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T12:15:45.850+0100"
+2026-11-03T12:15:47.593+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: @module=hyperv backend=local tf_provider_addr=registry.terraform.io/windsorcli/hyperv tf_rpc=ConfigureProvider tf_req_id=9ff88154-4bbf-ae3b-44f3-b65dd8c404c2 @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 timestamp="2026-11-03T12:15:47.593+0100"
+2026-11-03T12:15:51.903+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=11484
+2026-11-03T12:15:51.906+0100 [INFO]  backend/local: plan operation completed
+2026-11-03T13:06:34.457+0100 [INFO]  Terraform version: 1.16.6
+2026-11-03T13:06:34.464+0100 [INFO]  Go runtime version: go1.26.8
+2026-11-03T13:06:34.464+0100 [INFO]  CLI args: []string{"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links\\terraform.exe", "destroy"}
+2026-11-03T13:06:34.477+0100 [INFO]  CLI command args: []string{"destroy"}
+2026-11-03T13:06:35.210+0100 [INFO]  backend/local: starting Apply operation
+2026-11-03T13:06:35.532+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:06:35.601+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:06:35.600+0100"
+2026-11-03T13:06:35.637+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=13028
+2026-11-03T13:06:35.642+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:06:35.682+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:06:35.682+0100"
+2026-11-03T13:06:35.731+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=1412
+2026-11-03T13:06:35.731+0100 [INFO]  backend/local: apply calling Plan
+2026-11-03T13:06:35.733+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:06:35.801+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:06:35.800+0100"
+2026-11-03T13:06:38.694+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: @module=hyperv backend=local tf_rpc=ConfigureProvider @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 tf_provider_addr=registry.terraform.io/windsorcli/hyperv tf_req_id=94a5a343-0ba0-d297-92c6-f52bd9b448f2 timestamp="2026-11-03T13:06:38.694+0100"
+2026-11-03T13:06:49.600+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=4064
+2026-11-03T13:06:49.604+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:06:49.639+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:06:49.638+0100"
+2026-11-03T13:06:51.609+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: tf_req_id=35a25bd7-bd07-1bf9-fb16-de225e7e7134 tf_rpc=ConfigureProvider @module=hyperv tf_provider_addr=registry.terraform.io/windsorcli/hyperv @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 backend=local timestamp="2026-11-03T13:06:51.609+0100"
+2026-11-03T13:06:51.625+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=6656
+2026-11-03T13:06:55.490+0100 [INFO]  backend/local: apply calling Apply
+2026-11-03T13:06:55.492+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:06:55.523+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:06:55.522+0100"
+2026-11-03T13:06:57.636+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 backend=local tf_provider_addr=registry.terraform.io/windsorcli/hyperv tf_req_id=53f84cdf-4f72-04bf-9a9c-d7e0003e9161 @module=hyperv tf_rpc=ConfigureProvider timestamp="2026-11-03T13:06:57.636+0100"
+2026-11-03T13:06:57.640+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST03"]
+2026-11-03T13:06:57.640+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST01"]
+2026-11-03T13:06:57.640+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST04"]
+2026-11-03T13:06:57.642+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST02"]
+2026-11-03T13:06:59.887+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST04"]
+2026-11-03T13:06:59.887+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST01"]
+2026-11-03T13:06:59.887+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST03"]
+2026-11-03T13:06:59.887+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST02"]
+2026-11-03T13:07:00.759+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=4924
+2026-11-03T13:08:12.160+0100 [INFO]  Terraform version: 1.16.6
+2026-11-03T13:08:12.163+0100 [INFO]  Go runtime version: go1.26.8
+2026-11-03T13:08:12.163+0100 [INFO]  CLI args: []string{"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links\\terraform.exe", "validate"}
+2026-11-03T13:08:12.168+0100 [INFO]  CLI command args: []string{"validate"}
+2026-11-03T13:08:12.248+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:12.281+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:12.281+0100"
+2026-11-03T13:08:12.318+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=3668
+2026-11-03T13:08:12.320+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:12.339+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:12.339+0100"
+2026-11-03T13:08:12.373+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=1140
+2026-11-03T13:08:22.179+0100 [INFO]  Terraform version: 1.16.6
+2026-11-03T13:08:22.179+0100 [INFO]  Go runtime version: go1.26.8
+2026-11-03T13:08:22.179+0100 [INFO]  CLI args: []string{"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links\\terraform.exe", "plan"}
+2026-11-03T13:08:22.181+0100 [INFO]  CLI command args: []string{"plan"}
+2026-11-03T13:08:22.264+0100 [INFO]  backend/local: starting Plan operation
+2026-11-03T13:08:22.271+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:22.303+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:22.303+0100"
+2026-11-03T13:08:22.345+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=3056
+2026-11-03T13:08:22.345+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:22.367+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:22.367+0100"
+2026-11-03T13:08:22.403+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=6172
+2026-11-03T13:08:22.403+0100 [INFO]  backend/local: plan calling Plan
+2026-11-03T13:08:22.404+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:22.424+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:22.423+0100"
+2026-11-03T13:08:24.344+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: @module=hyperv backend=local tf_provider_addr=registry.terraform.io/windsorcli/hyperv @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 tf_req_id=25d92261-5b8c-e3c0-f6f9-c49e8ec6c8bc tf_rpc=ConfigureProvider timestamp="2026-11-03T13:08:24.344+0100"
+2026-11-03T13:08:24.387+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=3036
+2026-11-03T13:08:24.387+0100 [INFO]  backend/local: plan operation completed
+2026-11-03T13:08:31.283+0100 [INFO]  Terraform version: 1.16.6
+2026-11-03T13:08:31.283+0100 [INFO]  Go runtime version: go1.26.8
+2026-11-03T13:08:31.284+0100 [INFO]  CLI args: []string{"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links\\terraform.exe", "apply"}
+2026-11-03T13:08:31.290+0100 [INFO]  CLI command args: []string{"apply"}
+2026-11-03T13:08:31.372+0100 [INFO]  backend/local: starting Apply operation
+2026-11-03T13:08:31.378+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:31.409+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:31.409+0100"
+2026-11-03T13:08:31.443+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=8168
+2026-11-03T13:08:31.444+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:31.466+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:31.466+0100"
+2026-11-03T13:08:31.502+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=12372
+2026-11-03T13:08:31.503+0100 [INFO]  backend/local: apply calling Plan
+2026-11-03T13:08:31.503+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:31.523+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:31.522+0100"
+2026-11-03T13:08:33.370+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: @module=hyperv tf_rpc=ConfigureProvider @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 backend=local tf_provider_addr=registry.terraform.io/windsorcli/hyperv tf_req_id=b7a6151e-25f0-d5ee-6388-763b6171fadf timestamp="2026-11-03T13:08:33.370+0100"
+2026-11-03T13:08:33.437+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=3180
+2026-11-03T13:08:36.063+0100 [INFO]  backend/local: apply calling Apply
+2026-11-03T13:08:36.064+0100 [INFO]  provider: configuring client automatic mTLS
+2026-11-03T13:08:36.084+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: configuring server automatic mTLS: timestamp="2026-11-03T13:08:36.083+0100"
+2026-11-03T13:08:37.805+0100 [INFO]  provider.terraform-provider-hyperv_v0.5.0.exe: provider configured: backend=local @caller=github.com/windsorcli/terraform-provider-hyperv/internal/provider/provider.go:355 @module=hyperv tf_provider_addr=registry.terraform.io/windsorcli/hyperv tf_req_id=ecb8f81c-87b8-4178-8c40-1aaa90763296 tf_rpc=ConfigureProvider timestamp="2026-11-03T13:08:37.805+0100"
+2026-11-03T13:08:37.817+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST01"]
+2026-11-03T13:08:37.818+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST04"]
+2026-11-03T13:08:37.820+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST02"]
+2026-11-03T13:08:37.821+0100 [INFO]  Starting apply for hyperv_vhd.servers["SRV-TEST03"]
+2026-11-03T13:08:40.369+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST03"]
+2026-11-03T13:08:40.380+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST01"]
+2026-11-03T13:08:40.381+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST04"]
+2026-11-03T13:08:40.385+0100 [INFO]  Starting apply for hyperv_vm.servers["SRV-TEST02"]
+2026-11-03T13:08:52.496+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/windsorcli/hyperv/0.5.0/windows_amd64/terraform-provider-hyperv_v0.5.0.exe id=4892
