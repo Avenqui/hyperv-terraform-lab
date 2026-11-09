@@ -65,14 +65,14 @@ function Manage-LocalUser {
                         -ErrorAction SilentlyContinue
 
                     if ($Existing) {
-                        return "Användaren $User finns redan."
+                        return "The user $User already exists"
                     }
 
                     New-LocalUser -Name $User `
                         -Password $Password `
                         -ErrorAction Stop | Out-Null
 
-                    return "Användaren $User skapades."
+                    return "Created user $User."
                 }
 
                 "Remove" {
@@ -80,13 +80,13 @@ function Manage-LocalUser {
                         -ErrorAction SilentlyContinue
 
                     if (-not $Existing) {
-                        return "Användaren $User finns inte."
+                        return "The user $User does not exist"
                     }
 
                     Remove-LocalUser -Name $User `
                         -ErrorAction Stop
 
-                    return "Användaren $User togs bort."
+                    return "The user $User is removed."
                 }
 
                 "Check" {
@@ -94,10 +94,10 @@ function Manage-LocalUser {
                         -ErrorAction SilentlyContinue
 
                     if ($Existing) {
-                        return "Användaren $User finns."
+                        return "The user $User does exist."
                     }
 
-                    return "Användaren $User finns inte."
+                    return "The user $User does not exist."
                 }
 
                 "List" {
@@ -120,7 +120,7 @@ if (-not (Test-Path $LogDirectory)) {
 # Kontrollera parametrar
 if ($Action -ne "List" -and
     [string]::IsNullOrWhiteSpace($Username)) {
-    throw "Username måste anges för $Action."
+    throw "Provide an username for $Action."
 }
 
 # Hämta VM:ar
@@ -128,38 +128,38 @@ try {
     $VMs = @(Get-TargetVMs -Name $VMName)
 }
 catch {
-    Write-Log "Kunde inte hämta VM:ar: $($_.Exception.Message)" "ERROR"
+    Write-Log "Could not aquire virtual machines: $($_.Exception.Message)" "ERROR"
     throw
 }
 
 if ($VMs.Count -eq 0) {
-    Write-Log "Inga matchande VM:ar hittades." "WARNING"
+    Write-Log "No virtual machines with that name found" "WARNING"
     return
 }
 
 # Fråga efter administratörsuppgifter
-$Credential = Get-Credential -Message "Ange administratörskonto för VM:arna"
+$Credential = Get-Credential -Message "Enter admin account for virtual machines"
 
 # Fråga efter lösenord vid Create
 $Password = $null
 
 if ($Action -eq "Create") {
     $Password = Read-Host `
-        "Ange lösenord för $Username" `
+        "Enter password for user $Username" `
         -AsSecureString
 }
 
-Write-Log "Startar användarhantering. Action: $Action"
+Write-Log "Starting user configuration. Action: $Action"
 
 foreach ($VM in $VMs) {
 
     if ($VM.State -ne "Running") {
-        Write-Log "$($VM.Name) är inte igång." "WARNING"
+        Write-Log "$($VM.Name) is not running." "WARNING"
         continue
     }
 
     try {
-        Write-Log "Bearbetar $($VM.Name)"
+        Write-Log "Configurating $($VM.Name)"
 
         $Result = Manage-LocalUser `
             -TargetVM $VM.Name `
@@ -177,4 +177,4 @@ foreach ($VM in $VMs) {
     }
 }
 
-Write-Log "Användarhantering avslutad."
+Write-Log "User configuration ended."

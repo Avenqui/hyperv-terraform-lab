@@ -42,3 +42,58 @@
 [2026-11-09 09:18:09] [INFO] Bearbetar SRV-TEST04
 [2026-11-09 09:18:12] [INFO] SRV-TEST04: Användaren Niclas skapades.
 [2026-11-09 09:18:12] [INFO] Användarhantering avslutad.
+[2026-11-09 09:43:09] [INFO] Startar användarhantering. Action: create
+[2026-11-09 09:43:09] [INFO] Bearbetar SRV-TEST02
+[2026-11-09 09:43:10] [INFO] SRV-TEST02: Användaren Testar skapades.
+[2026-11-09 09:43:10] [INFO] Bearbetar SRV-TEST03
+[2026-11-09 09:43:12] [INFO] SRV-TEST03: Användaren Testar skapades.
+[2026-11-09 09:43:12] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:43:13] [INFO] SRV-TEST01: Användaren Testar skapades.
+[2026-11-09 09:43:13] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 09:43:14] [INFO] SRV-TEST04: Användaren Testar skapades.
+[2026-11-09 09:43:14] [INFO] Användarhantering avslutad.
+[2026-11-09 09:52:24] [INFO] Startar användarhantering. Action: list
+[2026-11-09 09:52:24] [INFO] Bearbetar SRV-TEST02
+[2026-11-09 09:52:25] [INFO] SRV-TEST02: Administrator - Enabled: True
+[2026-11-09 09:52:25] [INFO] SRV-TEST02: DefaultAccount - Enabled: False
+[2026-11-09 09:52:25] [INFO] SRV-TEST02: Guest - Enabled: False
+[2026-11-09 09:52:25] [INFO] SRV-TEST02: Testar - Enabled: True
+[2026-11-09 09:52:25] [INFO] SRV-TEST02: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:52:25] [INFO] Bearbetar SRV-TEST03
+[2026-11-09 09:52:26] [INFO] SRV-TEST03: Administrator - Enabled: True
+[2026-11-09 09:52:26] [INFO] SRV-TEST03: DefaultAccount - Enabled: False
+[2026-11-09 09:52:26] [INFO] SRV-TEST03: Guest - Enabled: False
+[2026-11-09 09:52:26] [INFO] SRV-TEST03: Testar - Enabled: True
+[2026-11-09 09:52:26] [INFO] SRV-TEST03: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:52:26] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:52:27] [INFO] SRV-TEST01: Administrator - Enabled: True
+[2026-11-09 09:52:27] [INFO] SRV-TEST01: DefaultAccount - Enabled: False
+[2026-11-09 09:52:27] [INFO] SRV-TEST01: Guest - Enabled: False
+[2026-11-09 09:52:27] [INFO] SRV-TEST01: Testar - Enabled: True
+[2026-11-09 09:52:27] [INFO] SRV-TEST01: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:52:28] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: Administrator - Enabled: True
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: DefaultAccount - Enabled: False
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: Guest - Enabled: False
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: Niclas - Enabled: True
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: Testar - Enabled: True
+[2026-11-09 09:52:29] [INFO] SRV-TEST04: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:52:29] [INFO] Användarhantering avslutad.
+[2026-11-09 10:44:34] [INFO] Startar användarhantering. Action: check
+[2026-11-09 10:44:34] [INFO] Bearbetar SRV-TEST02
+[2026-11-09 10:44:36] [INFO] SRV-TEST02: Användaren Niclas finns inte.
+[2026-11-09 10:44:36] [INFO] Bearbetar SRV-TEST03
+[2026-11-09 10:44:38] [INFO] SRV-TEST03: Användaren Niclas finns inte.
+[2026-11-09 10:44:38] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 10:44:38] [INFO] SRV-TEST01: Användaren Niclas finns inte.
+[2026-11-09 10:44:38] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 10:44:40] [INFO] SRV-TEST04: Användaren Niclas finns.
+[2026-11-09 10:44:40] [INFO] Användarhantering avslutad.
+[2026-11-09 10:45:52] [INFO] Startar användarhantering. Action: check
+[2026-11-09 10:45:52] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 10:45:53] [INFO] SRV-TEST04: Användaren Niclas finns.
+[2026-11-09 10:45:53] [INFO] Användarhantering avslutad.
+[2026-11-09 10:46:03] [INFO] Startar användarhantering. Action: check
+[2026-11-09 10:46:03] [INFO] Bearbetar SRV-TEST02
+[2026-11-09 10:46:04] [INFO] SRV-TEST02: Användaren Niclas finns inte.
+[2026-11-09 10:46:04] [INFO] Användarhantering avslutad.

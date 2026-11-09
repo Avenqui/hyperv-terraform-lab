@@ -124,3 +124,23 @@
 [2026-04-09 09:04:45] [INFO] Starting SRV-TEST04
 [2026-04-09 09:04:48] [INFO] SRV-TEST04 is now up and running
 [2026-04-09 09:04:48] [INFO] ------------------VM management ended------------------
+[2026-53-09 09:53:45] [INFO] ------------------Start VM management. Action stop ------------------
+[2026-53-09 09:53:45] [INFO] Shutting down SRV-TEST01
+[2026-53-09 09:53:50] [INFO] SRV-TEST01 is now shutdown
+[2026-53-09 09:53:50] [INFO] Shutting down SRV-TEST02
+[2026-53-09 09:53:52] [INFO] SRV-TEST02 is now shutdown
+[2026-53-09 09:53:52] [INFO] Shutting down SRV-TEST03
+[2026-53-09 09:53:54] [INFO] SRV-TEST03 is now shutdown
+[2026-53-09 09:53:54] [INFO] Shutting down SRV-TEST04
+[2026-53-09 09:53:56] [INFO] SRV-TEST04 is now shutdown
+[2026-53-09 09:53:56] [INFO] ------------------VM management ended------------------
+[2026-54-09 09:54:01] [INFO] ------------------Start VM management. Action start ------------------
+[2026-54-09 09:54:01] [INFO] Starting SRV-TEST01
+[2026-54-09 09:54:01] [INFO] SRV-TEST01 is now up and running
+[2026-54-09 09:54:01] [INFO] Starting SRV-TEST02
+[2026-54-09 09:54:02] [INFO] SRV-TEST02 is now up and running
+[2026-54-09 09:54:02] [INFO] Starting SRV-TEST03
+[2026-54-09 09:54:03] [INFO] SRV-TEST03 is now up and running
+[2026-54-09 09:54:03] [INFO] Starting SRV-TEST04
+[2026-54-09 09:54:04] [INFO] SRV-TEST04 is now up and running
+[2026-54-09 09:54:04] [INFO] ------------------VM management ended------------------
