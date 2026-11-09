@@ -1,0 +1,44 @@
+[2026-11-09 09:13:23] [INFO] Startar användarhantering. Action: List
+[2026-11-09 09:13:23] [INFO] Bearbetar SRV-TEST02
+[2026-11-09 09:13:29] [INFO] SRV-TEST02: Administrator - Enabled: True
+[2026-11-09 09:13:29] [INFO] SRV-TEST02: DefaultAccount - Enabled: False
+[2026-11-09 09:13:29] [INFO] SRV-TEST02: Guest - Enabled: False
+[2026-11-09 09:13:29] [INFO] SRV-TEST02: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:13:29] [INFO] Bearbetar SRV-TEST03
+[2026-11-09 09:13:35] [INFO] SRV-TEST03: Administrator - Enabled: True
+[2026-11-09 09:13:35] [INFO] SRV-TEST03: DefaultAccount - Enabled: False
+[2026-11-09 09:13:35] [INFO] SRV-TEST03: Guest - Enabled: False
+[2026-11-09 09:13:35] [INFO] SRV-TEST03: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:13:35] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:13:39] [INFO] SRV-TEST01: Administrator - Enabled: True
+[2026-11-09 09:13:39] [INFO] SRV-TEST01: DefaultAccount - Enabled: False
+[2026-11-09 09:13:39] [INFO] SRV-TEST01: Guest - Enabled: False
+[2026-11-09 09:13:39] [INFO] SRV-TEST01: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:13:39] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 09:13:45] [INFO] SRV-TEST04: Administrator - Enabled: True
+[2026-11-09 09:13:45] [INFO] SRV-TEST04: DefaultAccount - Enabled: False
+[2026-11-09 09:13:45] [INFO] SRV-TEST04: Guest - Enabled: False
+[2026-11-09 09:13:45] [INFO] SRV-TEST04: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:13:45] [INFO] Användarhantering avslutad.
+[2026-11-09 09:15:34] [WARNING] Inga matchande VM:ar hittades.
+[2026-11-09 09:15:57] [INFO] Startar användarhantering. Action: Create
+[2026-11-09 09:15:58] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:15:59] [INFO] SRV-TEST01: Användaren TestUser skapades.
+[2026-11-09 09:15:59] [INFO] Användarhantering avslutad.
+[2026-11-09 09:16:31] [INFO] Startar användarhantering. Action: List
+[2026-11-09 09:16:31] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:16:40] [INFO] SRV-TEST01: Administrator - Enabled: True
+[2026-11-09 09:16:40] [INFO] SRV-TEST01: DefaultAccount - Enabled: False
+[2026-11-09 09:16:40] [INFO] SRV-TEST01: Guest - Enabled: False
+[2026-11-09 09:16:40] [INFO] SRV-TEST01: TestUser - Enabled: True
+[2026-11-09 09:16:40] [INFO] SRV-TEST01: WDAGUtilityAccount - Enabled: False
+[2026-11-09 09:16:40] [INFO] Användarhantering avslutad.
+[2026-11-09 09:17:24] [INFO] Startar användarhantering. Action: Remove
+[2026-11-09 09:17:24] [INFO] Bearbetar SRV-TEST01
+[2026-11-09 09:17:25] [INFO] SRV-TEST01: Användaren TestUser togs bort.
+[2026-11-09 09:17:25] [INFO] Användarhantering avslutad.
+[2026-11-09 09:17:52] [WARNING] Inga matchande VM:ar hittades.
+[2026-11-09 09:18:09] [INFO] Startar användarhantering. Action: Create
+[2026-11-09 09:18:09] [INFO] Bearbetar SRV-TEST04
+[2026-11-09 09:18:12] [INFO] SRV-TEST04: Användaren Niclas skapades.
+[2026-11-09 09:18:12] [INFO] Användarhantering avslutad.
