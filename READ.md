@@ -4,6 +4,21 @@
 
 www.github.com/Avenqui/hyperv-terraform-lab
 
+## Projektets mål
+Målet med projektet var att automatisera skapandet av virtuella maskiner i Hyper-V med hjälp av Terraform. Tanken var att kunna skapa och hantera flera servrar snabbt utan att behöva konfigurera varje maskin manuellt.
+
+## Använda tekniker
+I projektet användes Windows Server 2022, Hyper-V, Terraform och PowerShell. Git och GitHub användes för versionshantering och dokumentation.
+
+## Genomförande
+Med Terraform skapades flera virtuella maskiner utifrån en befintlig VHDX-mall. Genom att använda differencing disks kunde maskinerna skapas betydligt snabbare. En Unattend.xml-fil användes för att automatisera Windows-installationen och PowerShell-script skapades för att hantera lokala användare på maskinerna.
+
+## Resultat
+Resultatet blev en fungerande lösning där flera virtuella maskiner kunde skapas automatiskt genom Terraform. Tiden för att skapa tre maskiner minskade från ungefär 30 minuter till 5 minuter genom att använda differencing disks.
+
+## Egna reflektioner
+Projektet har gett mig en bättre förståelse för Infrastructure as Code (IaC) och hur automatisering kan förenkla administrationen av servrar. Jag stötte på flera problem under arbetets gång, framför allt med sökvägar, Terraform-konfiguration och PowerShell-script. Genom felsökning kunde jag lösa problemen och samtidigt få mer praktisk erfarenhet av teknikerna.
+
 ## Create VMs
 
 Using Terraform, we create VMs in Hyper-V. We use differencing disks to make VM deployment faster.
